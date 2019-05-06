@@ -98,9 +98,6 @@ pdf(paste(sample,'_tsne.pdf',sep=''))
 TSNEPlot(object = pbmc)
 dev.off()
 
-###saveRDS(pbmc, file = "/NJPROJ2/RNA_S/personal_dir/changyanxia/seurat")
-##saveRDS(pbmc, file = "/NJPROJ2/RNA_S/personal_dir/changyanxia/seurat/pbmc_tutorial.rds")
-
 ###cluster1.markers <- FindMarkers(object = pbmc, ident.1 = 1, min.pct = 0.25)
 ####write.table(cluster1.markers,file='cluster_1.csv',quote=F,row.names=T,col.names=T,sep='\t')
 

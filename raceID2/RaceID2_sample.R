@@ -2,7 +2,7 @@
 #install.packages(c("tsne","pheatmap","MASS","cluster","mclust","flexmix","lattice","fpc","RColorBrewer","permute","amap","locfit","vegan"))
 
 ## load class definition and functions
-source("/NJPROJ2/RNA_S/personal_dir/lindan/YanFa/RaceID2/example1/RaceID2_StemID_class.R")
+source("RaceID2_StemID_class.R")
 library(argparse)
 
 parser = ArgumentParser()
